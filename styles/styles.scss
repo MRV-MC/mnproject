@@ -1,0 +1,15 @@
+@import 
+    "variables",
+    "normalize",
+    "mixins",
+    "media",
+    "utils",
+    "globals";
+
+@import 
+    "./blocks/bonus",
+    "./blocks/offers",
+    "./blocks/advantages",
+    "./blocks/cities",
+    './blocks/popup',
+    './blocks/request'

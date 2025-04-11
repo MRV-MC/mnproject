@@ -1,0 +1,381 @@
+.request-success.success {
+    display: flex;
+    flex-direction: column;
+  }
+  .request-success__icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .request-success__title {
+    padding-top: 16px;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+  }
+  .request-success__subtitle {
+    font-size: 16px;
+    text-align: center;
+    line-height: 19px;
+    padding: 15px 0 40px 0;
+  }
+  .request-success__close.button_oval {
+    color: var(--main-color);
+    border-color: var(--main-color);
+    margin: 0 auto;
+  }
+  .error-fld {
+    display: block;
+    float: left;
+    height: 13px;
+    width: 15px;
+    background-repeat: no-repeat;
+    background-image: url(images/icon_warn.gif);
+  }
+  .request-form__form {
+    max-width: 770px;
+    padding: 0 100px 53px 96px;
+    border-radius: 25px;
+    margin-right: 30px;
+    flex: 1 1 70%;
+    background-repeat: round;
+  }
+  .form-representatives .request-form__subtitle {
+    margin-bottom: 26px;
+  }
+  .form-representatives .request-form__subtitle.mobile {
+    display: none;
+  }
+  .request-form-form__container .request-form-part__submit-button {
+    margin: 0;
+  }
+  .request-form__form-header-title {
+    font-size: 18px;
+    line-height: 81px;
+    font-weight: 500;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .request-form-form__container .popup-form-part__input {
+    border-radius: 10px;
+    padding-left: 12px;
+  }
+  
+  .request-form-form__container .request-form-part__name {
+    padding: 0;
+  }
+  
+  .request-form-form__container .popup-form-part__name {
+    left: 12px;
+  }
+  
+  .request-form-part__submit-button.button_oval_filled {
+    box-shadow: 0px 10px 10px 0px #FFFFFF40;
+    line-height: 64px;
+    font-weight: 700;
+    font-size: 17px;
+    padding: 0 12px 0 30px;
+    width: 100%;
+    text-align: left;
+    letter-spacing: 0.8px;
+  }
+  
+  .request-form-part__submit-button-ico {
+    width: 41px;
+    height: 41px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    position: absolute;
+    right: 12px;
+  }
+  
+  .form-representatives .popup-form-part_submit {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    align-items: center;
+    width: fit-content;
+    margin: auto;
+    max-width: 363px;
+    width: 100%;
+  }
+  
+  .form-representatives .request-form__form .popup-form-part_submit {
+    padding-top: 26px;
+  }
+  
+  .request-form .popup-form__title {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 28px;
+    padding: 0;
+  }
+  
+  .request-form .popup-form__subtitle {
+    color: #373535;
+    line-height: 31px;
+    font-size: 23px;
+  }
+  
+  .form-get_consultation-back {
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .form-get_consultation-back img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 25px;
+  }
+  
+  .form-get_consultation-back.mobile {
+    display: none;
+  }
+  
+  .form-get_consultation {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 25px;
+    padding: 0 0 55px;
+    flex: 0 1 19.3%;
+    background-repeat: no-repeat;
+  }
+  
+  .form-representatives {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 66px;
+    margin-bottom: 71px;
+  }
+  
+  .form-representatives .request-form__title,
+  .form-representatives .request-form__subtitle {
+    flex: 1 1 100%;
+  }
+  
+  .form-representatives .popup-form-part_filled .popup-form-part__name, 
+  .form-representatives .popup-form-part__input:focus + .popup-form-part__name, 
+  .form-representatives .type-file .request-form-part__name {
+    background-color: transparent;
+    display: none;
+  }
+  
+  .get_consultation-title {
+    color: white;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 81px;
+  }
+  
+  .get_consultation-btn {
+    max-width: 259px;
+    width: 100%;
+  }
+  
+  .get_consultation-btn > .request-form-form__container > a {
+    font-size: 17px;
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+  }
+  
+  .form-representatives .request-form-part_submit .request-form-part__submit-button-ico {
+    transition: var(--main-transition);
+    user-select: none;
+    cursor: pointer;
+    pointer-events: none;
+  }
+  
+  .form-representatives .request-form-part_submit:hover .request-form-part__submit-button-ico {
+    opacity: var(--main-button-opacity);
+  }
+  
+  .form-back-rocket {
+    position: absolute;
+    top: -260px;
+    right: 170px;
+    z-index: -1;
+  }
+  
+  .form-representatives .request-form-part__submit-button.button_oval_filled {
+    background-color: #FF679D;
+  }
+  
+  .form-text-wha {
+    display: none;
+  }
+  
+  @media (max-width: 1550px) {
+    .form-get_consultation {
+      flex: 0 1 30%;
+      background-repeat: round;
+    }
+  }
+  
+  @media (max-width: 1160px) {
+  
+    .form-representatives .request-form__form {
+      margin: auto;
+    }
+  
+    .form-representatives .form-get_consultation {
+      max-width: 770px;
+      margin-top: 23px;
+    }
+  
+    .form-representatives .request-form__form,
+    .form-representatives .form-get_consultation {
+      flex: 1 1 100%;
+    }
+  
+    .form-get_consultation {
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position-y: 70%;
+    }
+  
+  }
+  
+  @media (max-width: 747px) {
+  
+    .form-representatives .request-form-form__container .popup-form-part__name {
+      font-size: 12px;
+      line-height: 24px;
+    }
+  
+    .form-representatives {
+      padding: 0 14px;
+    }
+  
+    .form-representatives .request-form__title {
+      font-size: 11px;
+      line-height: 18px;
+    }
+  
+    .form-representatives .request-form__subtitle {
+      font-size: 13px;
+      line-height: 18px;
+      margin-bottom: 4px;
+    }
+  
+    .request-form__form-header-title {
+      font-size: 14px;
+      line-height: 17px;
+      height: 48px;
+    }
+  
+    .form-representatives .request-form__form {
+      padding: 0 15px 24px 15px;
+    }
+  
+    .form-representatives .request-form-form__container .popup-form-part__input {
+      font-size: 12px;
+      line-height: 24px;
+      padding: 8.5px 13px;
+    }
+  
+    .form-representatives .popup-form-part:not(:last-child) {
+      margin: 0 0 12px 0;
+    }
+  
+    .form-representatives .popup-form-part_submit {
+      padding-top: 12px !important;
+      max-width: 250px;
+    }
+  
+    .form-representatives .request-form-part__submit-button.button_oval_filled {
+      font-size: 12px;
+      line-height: 44px;
+      padding: 0 8px 0 20px;
+    }
+  
+    .request-form-part__submit-button-ico {
+      width: 28px;
+      height: 28px;
+  
+    }
+  
+    .request-form-part__submit-button-ico > svg {
+      width: 5px;
+      height: 10px;
+    }
+  
+    .request-form-part__submit-button-ico {
+      right: 8px;
+    }
+  
+    .form-representatives {
+      margin-top: 33px;
+      margin-bottom: 22px;
+    }
+  
+    .form-representatives .request-form-part__submit-button.button_oval_filled > span:not(.form-text-wha) {
+      display: none;
+    }
+  
+    .form-text-wha {
+      display: block;
+    }
+  
+    .form-representatives .request-form__form, .form-representatives .form-get_consultation {
+      border-radius: 15px;
+    }
+  
+    .form-representatives .get_consultation-btn .popup-form-part_submit {
+      padding-top: 0 !important;
+    }
+  
+    .form-representatives .get_consultation-btn .popup-form-part_submit .request-form-part__submit-button {
+      padding-left: 15px;
+    }
+  
+    .get_consultation-title {
+      font-size: 22px;
+      line-height: 68px;
+    }
+  
+    .form-get_consultation {
+      padding-bottom: 24px;
+    }
+  
+    .form-back-rocket {
+      top: -200px;
+      left: 160px;
+      width: 70%;
+      height: 100%;
+    }
+  
+    .form-representatives .request-form__subtitle {
+      display: none;
+    }
+  
+    .form-representatives .request-form__subtitle.mobile {
+      display: flex;
+      justify-content: center;
+    }
+  
+    .form-get_consultation-back {
+      display: none;
+    }
+  
+    .form-get_consultation-back.mobile {
+      display: block;
+    } 
+  
+    .form-get_consultation-back.mobile img {
+      border-radius: 15px;
+    }
+  
+  }
